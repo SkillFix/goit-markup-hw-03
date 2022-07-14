@@ -1,0 +1,38 @@
+button {
+    padding: 6px 22px;
+/* min-width нужно сделать для каждой отдельной кнопки отдельно? */
+
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px; 
+    letter-spacing: 0.03em;
+    line-height: 1.62;
+    font-family: inherit;
+    
+    color: var(--title-text-color);
+    background-color: var(--current-color);
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;   
+}
+button:hover {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+}
+/* main */
+.title {
+    color: var(--title-text-color);
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    line-height: 2;
+    padding: 0;
+    margin: 0;
+}
+.text {
+    color: var(--primary-text-color);
+    letter-spacing: 0.03em;
+    line-height: 1.88;
+    padding: 0;
+    margin: 0;
+}
