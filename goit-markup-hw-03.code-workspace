@@ -1,0 +1,14 @@
+{
+  "folders": [
+	{
+		"path": "."
+	},
+	{
+		"path": "..\\lern-html-css"
+	}
+],
+  "settings": {
+    "editor.fontSize": 20,
+    "liveServer.settings.multiRootWorkspaceName": "goit-markup-hw-03"
+  }
+}
