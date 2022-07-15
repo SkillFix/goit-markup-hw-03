@@ -137,14 +137,13 @@ a {
 
 /* подвал */
 .main-footer {
-
+    padding: 60px;
 }
 .page-footer {
     background: #2F303A;
 }
 .logo-footer {
     color: var(--primary-white-color);
-
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
     font-weight: 700;
@@ -152,6 +151,8 @@ a {
     line-height: 1.2;
 }
 address {
+    margin-top: 20px;
+    
     font-size: 14px;
     font-style: normal;
     letter-spacing: 0.03em;
