@@ -28,11 +28,15 @@ button {
     text-align: center;
 }
 .section {
-    padding: 0 0 94px 0;
+    padding: 94px 0 94px 0;
 }
 /* секция заголовок с фоном */
+.hero-section {
+    padding: 200px 0;
+}
 .hero {
     text-align: center;
+    padding: 200px 0;
 }
 .hero-title {
     margin: 0 0 30px 0;
@@ -42,7 +46,6 @@ button {
     font-weight: 900;
     letter-spacing: 0.06em;
     line-height: 1.36;
-    text-align: center;
     text-transform: uppercase;
     color: var(--primary-white-color);
     background-color: #2F303A;
@@ -124,7 +127,7 @@ button {
 }
 .page-team .title {
     padding: 0;
-    margin: 30px 0 10px 0;
+    margin: 0 0 10px 0;
     text-align: center;
 
     color: var(--title-text-color);
@@ -133,16 +136,16 @@ button {
     letter-spacing: 0.03em;
     line-height: 1.2;
 }
-.page-team .section-title {
-    padding-top: 94px;
-}
 .page-team .text {
     padding: 0;
-    margin: 0 0 30px 0;
+    margin: 0;
 
     letter-spacing: 0.03em;
     line-height: 1.2;
     text-align: center;
+}
+.description {
+    padding: 30px 0;
 }
 
 
