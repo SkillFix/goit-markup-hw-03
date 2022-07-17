@@ -4,13 +4,14 @@
 /* синий акцент #2196F3; */
 /* вторичный цвет фона #F5F4FA; */
 
-:root { 
+:root {
     --primary-text-color: #757575;
     --primary-white-color: #fff;
     --title-text-color: #212121;
     --accent-color: #2196F3;
-    --current-color:#F5F4FA;
+    --current-color: #F5F4FA;
 }
+
 html {
     box-sizing: border-box;
 }
@@ -20,25 +21,30 @@ html {
 *::after {
     box-sizing: inherit;
 }
+
 body {
     margin: 0;
 
     background-color: var(--primary-white-color);
     color: var(--primary-text-color);
 
-    font-family: 'Roboto', sans-serif; 
+    font-family: 'Roboto', sans-serif;
 }
+
 img {
     display: block;
 }
+
 ul {
     list-style: none;
     padding: 0;
-    margin: 0; 
+    margin: 0;
 }
+
 a {
     text-decoration: none;
 }
+
 /* выделение всех элементов для удобства верстки */
 /* * {
     outline: 2px solid #ed0505;
@@ -48,11 +54,13 @@ a {
 .list {
     list-style: none;
 }
+
 .container {
     margin: 0 auto;
     width: 1200px;
     padding: 0 15px;
 }
+
 .hidden {
     visibility: hidden;
     font-size: 0;
@@ -63,6 +71,7 @@ a {
     border-bottom: 1px solid #ECECEC;
 
 }
+
 .logo {
     padding-top: 24px;
     padding-bottom: 25px;
@@ -74,9 +83,11 @@ a {
     letter-spacing: 0.03em;
     line-height: 1.2;
 }
+
 .logo-web {
     color: var(--accent-color);
 }
+
 /* main-nav */
 .main-nav {
     display: flex;
@@ -88,9 +99,11 @@ a {
     display: flex;
     margin-left: 93px;
 }
-.site-nav .item + .item {
+
+.site-nav .item+.item {
     margin-left: 50px;
 }
+
 .site-nav a {
     display: block;
     padding-top: 32px;
@@ -103,10 +116,12 @@ a {
     letter-spacing: 0.02em;
     line-height: 1.2;
 }
+
 .site-nav .link:hover,
 .site-nav .link:focus {
     color: var(--accent-color);
 }
+
 .site-nav .link.current {
     color: var(--accent-color);
 }
@@ -116,9 +131,11 @@ a {
     display: flex;
     margin-left: auto;
 }
-.contact-nav .item + .item {
+
+.contact-nav .item+.item {
     margin-left: 50px;
 }
+
 .contact-nav a {
     display: block;
     padding-top: 32px;
@@ -130,18 +147,19 @@ a {
     font-weight: 500;
     line-height: 1.2;
 }
+
 .contact-nav .link:hover,
 .contact-nav .link:focus {
     color: var(--accent-color);
 }
 
 /* подвал */
-.main-footer {
-    padding: 60px 0;
-}
+
 .page-footer {
     background: #2F303A;
+    padding: 60px 0;
 }
+
 .logo-footer {
     color: var(--primary-white-color);
     font-family: 'Raleway', sans-serif;
@@ -150,9 +168,10 @@ a {
     letter-spacing: 0.03em;
     line-height: 1.2;
 }
+
 address {
     margin-top: 20px;
-    
+
     font-size: 14px;
     font-style: normal;
     letter-spacing: 0.03em;
@@ -162,16 +181,16 @@ address {
 .address-list .link.link-address {
     color: var(--primary-white-color);
 }
+
 .address-list .link {
     color: rgba(255, 255, 255, 0.6);
 }
+
 .address-list .link:hover,
 .address-list .link:focus {
     color: var(--accent-color);
 }
-.address-list .item {
+
+.address-list .item:not(:last-child) {
     margin-bottom: 9px;
-}
-.address-list .item:last-child {
-    margin-bottom: 0;
 }

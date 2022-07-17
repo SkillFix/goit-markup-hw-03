@@ -14,8 +14,9 @@ button {
     cursor: pointer;
     border-radius: 4px;
     border: none;
-    
+
 }
+
 .section-title {
     padding: 0;
     margin: 0 0 50px 0;
@@ -27,17 +28,21 @@ button {
     line-height: 1.2;
     text-align: center;
 }
+
 .section {
     padding: 94px 0 94px 0;
 }
+
 /* секция заголовок с фоном */
 .hero-section {
     padding: 200px 0;
 }
+
 .hero {
     text-align: center;
     padding: 200px 0;
 }
+
 .hero-title {
     margin: 0 0 30px 0;
     padding: 0;
@@ -56,11 +61,13 @@ button {
     display: flex;
     flex-wrap: wrap;
 }
+
 .page-business .item {
     width: calc((100% - 90px) / 4);
     /* calc((100% - количество маржин * значение маржина) / кол-во элементов в строке); */
     margin-right: 30px;
 }
+
 .page-business .item:nth-child(4n) {
     margin-right: 0;
 }
@@ -68,6 +75,7 @@ button {
 .page-business .item {
     width: 270px;
 }
+
 .page-business .title {
     padding: 0;
     margin: 0 0 10px 0;
@@ -79,6 +87,7 @@ button {
     color: var(--title-text-color);
     text-transform: uppercase;
 }
+
 .page-business .text {
     font-size: 14px;
     line-height: 1.7;
@@ -86,18 +95,23 @@ button {
     padding: 0;
     margin: 0;
 }
+
 /* чем мы занимаемся */
 .our-activities {
     display: flex;
     flex-wrap: wrap;
+    padding-top: 0;
 }
+
 .our-activities .item {
     width: calc((100% - 60px) / 3);
     margin-right: 30px;
 }
+
 .our-activities .item:nth-child(3n) {
     margin-right: 0;
 }
+
 .our-activities .title {
     padding: 0;
     margin: 0;
@@ -112,6 +126,7 @@ button {
     display: flex;
     flex-wrap: wrap;
 }
+
 .team-list .item {
     width: calc((100% - 90px) / 4);
     margin-right: 30px;
@@ -119,12 +134,15 @@ button {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
+
 .team-list .item:nth-child(4n) {
     margin-right: 0;
 }
+
 .page-team {
     background: #F5F4FA;
 }
+
 .page-team .title {
     padding: 0;
     margin: 0 0 10px 0;
@@ -136,6 +154,7 @@ button {
     letter-spacing: 0.03em;
     line-height: 1.2;
 }
+
 .page-team .text {
     padding: 0;
     margin: 0;
@@ -144,8 +163,7 @@ button {
     line-height: 1.2;
     text-align: center;
 }
+
 .description {
     padding: 30px 0;
 }
-
-

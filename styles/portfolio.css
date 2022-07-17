@@ -1,29 +1,31 @@
-
 /* фильтр */
 .btn-filter {
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
 }
-.btn-filter .item + .item {
-margin-left: 8px;
+
+.btn-filter .item+.item {
+    margin-left: 8px;
 }
+
 button {
     padding: 6px 22px;
     border-radius: 4px;
     border: none;
     cursor: pointer;
-/* min-width нужно сделать для каждой отдельной кнопки отдельно? */
+    /* min-width нужно сделать для каждой отдельной кнопки отдельно? */
 
     text-align: center;
     font-weight: 500;
-    font-size: 16px; 
+    font-size: 16px;
     letter-spacing: 0.03em;
     line-height: 1.62;
     font-family: inherit;
     color: var(--title-text-color);
-    background-color: var(--current-color);  
+    background-color: var(--current-color);
 }
+
 button:hover {
     background-color: var(--accent-color);
     color: var(--primary-white-color);
@@ -31,15 +33,14 @@ button:hover {
 }
 
 /* main */
-.main {
-
-}
+.main {}
 
 
 /* карточки */
 .section {
     padding: 94px 0 0 0;
 }
+
 .title {
     margin: 0;
 
@@ -49,31 +50,36 @@ button:hover {
     letter-spacing: 0.06em;
     line-height: 2;
 }
+
 .text {
     margin: 4px 0 0 0;
-    
+
     color: var(--primary-text-color);
     letter-spacing: 0.03em;
     line-height: 1.88;
 }
+
 .cards-list {
     display: flex;
     flex-wrap: wrap;
 }
+
 .cards-list .item {
     /* width: 370px; */
     width: calc((100% - 60px) / 3);
     margin-right: 30px;
     margin-bottom: 30px;
 }
+
 .cards-list .item:nth-child(3n) {
     margin-right: 0;
 }
+
 .cards-list .item:nth-last-child(-n +3) {
     margin-bottom: 0;
 }
 
-.description{
+.description {
     border: 1px solid #EEEEEE;
     border-top: none;
     padding: 20px 0 24px 24px;
@@ -81,5 +87,5 @@ button:hover {
 
 /* подвал */
 .page-footer {
-margin-top: 94px;
+    margin-top: 94px;
 }
